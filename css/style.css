@@ -1,0 +1,31 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+header ul:first-child,header img{
+display: inline-block;
+
+}
+header img{
+    width: 120px;
+    float: left;
+}
+article.nivel-dois {
+    display: inline-block;
+    width: 45%;
+    margin: 20px;
+    padding: 10px;
+}
+ul li ul {
+    list-style: none;
+}
+ol,
+ul[type="circle"]{
+    padding-left: 20px;
+}
+.case{
+    border: 1px
+}
